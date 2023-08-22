@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap');
+
 
 :root{
     --red:#EF233C;
@@ -7,59 +8,47 @@
 body{
     margin: 0;
     height: 100vh;
-    background-color: black;
+    background-color:#000814;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', cursive;
+    font-family: 'Rowdies', cursive;
 }
 .btn-cstm{
     background-color: #EF233C;
 }
-.btn-danger{
-    color: white;
+
+.text-danger{
+    color: #EF233C;
 }
 .nav-item a{
     color: white;
 }
-.h-5{
-    min-height: 250px;
+
+.nav-item a:hover{
+    color: red;
 }
-profile{
+
+.h-5{
+    min-height: 450px;
+}
+.profile{
     width: 50%;
     margin: 20px;
-    /* filter: drop-shadow(10px 10px 70px white); */
+    filter:drop-shadow(10px 10px 70px white)
 }
-.img-height{
-    height: 350px;
+.aboutme{
+    min-height:600px ;
 }
-.width{
-    width: 100%;
-    margin: 0;
-    height: 500px;
-}
-.about-content{
-    width: 50%;
-}
-.image-margin{
-    margin-left:225px;
-}
+
 .card img{
     height: 300px;
 }
-/* .row-gap{
-    gap: 15px;
-} */
+
 .title{
-    color: #EF233C;
+    color: #dc3545;
     text-align: center;
 }
-/* html{
-    scroll-behavior:smooth;
-} */
 .icons i{
     margin-left: 10px;
-    color:  var(--red);
-}
-.nav-item a:hover{
-    color: var(--red);
+    color:var(--red);
 }
